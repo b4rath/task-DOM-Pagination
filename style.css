@@ -1,0 +1,133 @@
+/* CSS code for pagination */
+.container {
+    max-width: 900px;
+    height: 570px;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 610px) {
+    #event-btn-first,
+    #event-btn-last,
+    #event-btn-5,
+    #event-btn-6,
+    #event-btn-7,
+    #event-btn-8,
+    #event-btn-9,
+    #event-btn-10
+     {
+      display: none;
+    }
+  }
+
+  @media (max-width: 660px) {
+    #event-btn-5,
+    #event-btn-6,
+    #event-btn-7,
+    #event-btn-8,
+    #event-btn-9,
+    #event-btn-10
+     {
+      display: none;
+    }
+  }
+
+  @media (max-width: 710px) {
+    #event-btn-6,
+    #event-btn-7,
+    #event-btn-8,
+    #event-btn-9,
+    #event-btn-10
+     {
+      display: none;
+    }
+  }
+
+  @media (max-width: 1000px) {
+    #event-btn-7,
+    #event-btn-8,
+    #event-btn-9,
+    #event-btn-10
+     {
+      display: none;
+    }
+  }
+  
+ 
+  #title {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #description {
+    text-align: justify;
+    margin: 10px 20px;
+  }
+  
+  #buttons {
+    overflow: hidden;
+    margin: 20px 0;
+  }
+  
+  .container{
+    background-color: whitesmoke;
+    border: black 1px solid;
+    padding-bottom: 100px;
+  }
+
+  #nav-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #ul-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #ul-list li {
+    display: inline-block;
+  }
+  
+  #ul-list li button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+  
+  #ul-list li button:hover {
+    color: white;
+    background-color: #0271ac8a;
+  }
+  
+  #ul-list li button.active {
+    background-color: #008bd6;
+    color: white;
+  }
+  
+  .table-responsive {
+    margin: 20px;
+    overflow-x: auto;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th, .table td {
+    text-align: left;
+    padding: 10px;
+    border: 2px solid rgb(255, 255, 255);
+  }
+  
+  .table th {
+    background-color: #008bd6;
+    color: white;
+  }
+  
